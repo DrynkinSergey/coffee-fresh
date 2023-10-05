@@ -1,10 +1,12 @@
-import { Header } from './components/Header'
-
+import Container from './components/Container'
+import FirstScreen from './views/FirstScreen/FirstScreen'
+import CoffeeShop from './views/CoffeeShop/CoffeeShop'
 const App = () => {
 	return (
-		<div>
-			<Header />
-		</div>
+		<Container>
+			<FirstScreen />
+			<CoffeeShop />
+		</Container>
 	)
 }
 

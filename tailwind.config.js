@@ -2,7 +2,13 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				cedarville: ['Cedarville Cursive', 'cursive'],
+				josefin: ['Josefin Sans', 'sans'],
+				alegreya: ['Alegreya Sans', 'sans'],
+			},
+		},
 	},
 	plugins: [],
 }
