@@ -1,6 +1,7 @@
 import { AiOutlineClose } from 'react-icons/ai'
 import SocialIcons from '../SocialIcons/SocialIcons'
 import { Logo } from '../Logo/Logo'
+import { Nav } from '../Nav/Nav'
 
 export const Modal = ({ close }) => {
 	return (
@@ -12,23 +13,7 @@ export const Modal = ({ close }) => {
 				</button>
 			</div>
 
-			<ul className=' flex-grow grid gap-8 text-2xl font-semibold text-center mt-14 mb-8'>
-				<li>
-					<a href='#'>Home</a>
-				</li>
-				<li>
-					<a href='#'>About us</a>
-				</li>
-				<li>
-					<a href='#'>Promotion</a>
-				</li>
-				<li>
-					<a href='#'>Shop</a>
-				</li>
-				<li>
-					<a href='#'>Contacts</a>
-				</li>
-			</ul>
+			<Nav />
 			<div className=''>
 				<SocialIcons />
 			</div>

@@ -3,7 +3,7 @@ import Title from '../../components/Title'
 
 const CoffeDay = () => {
 	return (
-		<div>
+		<div id='promotion'>
 			<Title title='Сoffee of the day' />
 			<p className='font-alegreya mt-6'>
 				Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream)
@@ -11,7 +11,8 @@ const CoffeDay = () => {
 				not be confused. n the second case, this refers not to diluted espresso, but to a drink prepared through a
 				filter system.
 			</p>
-			<div className='mt-20 gap-5 grid'>
+			<div id='shop'></div>
+			<div className='mt-20 gap-5 grid md:grid-cols-3 md:px-10'>
 				<Card
 					title='Espresso'
 					desc='Espresso - black coffee made in a coffee machine or a special coffee machine, where hot water is passed through pressed ground beans at a pressure.'
