@@ -1,11 +1,9 @@
 import { BsArrowRight } from 'react-icons/bs'
-import { Header } from '../../components/Header'
 import SvgBG from '../../components/SvgBG/SvgBG'
 
 const FirstScreen = () => {
 	return (
 		<div>
-			<Header />
 			<div className='mt-[120px] text-center grid gap-3'>
 				<h2 className='font-cedarville text-lg font-normal'>Drink coffee, enjoy with Samwyle</h2>
 				<h1 className='font-josefin font-normal text-4xl'>Coffee Shop</h1>
