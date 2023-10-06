@@ -2,7 +2,6 @@ import { AlignJustify } from 'lucide-react'
 import useModal from '../hooks/useModal'
 import { Modal } from './Modal/Modal'
 import { Logo } from './Logo/Logo'
-import React from 'react'
 import { Nav } from './Nav/Nav'
 
 export const Header = () => {

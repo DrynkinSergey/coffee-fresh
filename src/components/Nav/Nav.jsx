@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const Nav = () => {
+export const Nav = ({ close }) => {
 	return (
 		<ul className='sm:flex-grow-[0] flex-grow grid sm:flex gap-8 sm:text-lg lg:text-xl xl:text-2xl text-2xl font-josefin font-semibold text-center mt-14 sm:mt-0 sm:mb-0 mb-8'>
 			<li className='block sm:hidden' onClick={close}>

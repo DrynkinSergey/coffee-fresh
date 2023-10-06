@@ -13,7 +13,7 @@ export const Modal = ({ close }) => {
 				</button>
 			</div>
 
-			<Nav />
+			<Nav close={close} />
 			<div className=''>
 				<SocialIcons />
 			</div>
